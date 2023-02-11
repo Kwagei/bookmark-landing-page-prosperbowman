@@ -19,7 +19,7 @@ img{
 .navigation{
     display: flex;
     /* background-color: bisque; */
-    width: 25%;
+    width: 30%;
     gap: 20px;
     align-items: center;
     font-size: 18px;
@@ -35,7 +35,7 @@ nav button{
     color: white;
     background-color: rgba(235, 39, 39, 0.883);
     font-size: 17px;
-    width: 150px;
+    width: 200px;
     height: 40px;
     font-weight: bold;
 }
@@ -47,17 +47,17 @@ nav button:hover{
     box-shadow: 0 0 15px rgb(120, 115, 115);
 }
 .section{
-    margin-top: 150px;
+    margin-top: 80px;
     display: flex;
     width: 100%;
     /* background-color: beige; */
     justify-content: center;
     height: 60vh;
-    gap: 50px;
+    gap: 100px;
 }
 .texts{
     margin-top: 100px;
-    width: 30%;
+    width: 35%;
     height: 40vh;
     /* background-color: aqua; */
 }
@@ -116,7 +116,7 @@ nav button:hover{
 .photo img{
     margin-top: 50px;
     margin-left: 60px;
-    width: 550px;
+    width: 470px;
     height: 50vh;
 }
 .features{
