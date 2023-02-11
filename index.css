@@ -1,3 +1,8 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 nav{
     margin-top: 35px;
     display: flex;
@@ -14,9 +19,9 @@ img{
 .navigation{
     display: flex;
     /* background-color: bisque; */
-    width: 20%;
-    justify-content: space-between;
-    margin-left: 55%;
+    width: 25%;
+    gap: 20px;
+    align-items: center;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -30,8 +35,8 @@ nav button{
     color: white;
     background-color: rgba(235, 39, 39, 0.883);
     font-size: 17px;
-    width: 8rem;
-    height: 3rem;
+    width: 150px;
+    height: 40px;
     font-weight: bold;
 }
 nav button:hover{
@@ -42,16 +47,16 @@ nav button:hover{
     box-shadow: 0 0 15px rgb(120, 115, 115);
 }
 .section{
-    margin-top: 6rem;
+    margin-top: 150px;
     display: flex;
     width: 100%;
     /* background-color: beige; */
     justify-content: center;
     height: 60vh;
-    gap: 10rem;
+    gap: 50px;
 }
 .texts{
-    margin-top: 5rem;
+    margin-top: 100px;
     width: 30%;
     height: 40vh;
     /* background-color: aqua; */
@@ -59,7 +64,7 @@ nav button:hover{
 .simple{
     color: rgb(12, 11, 11);
     font-weight: bold;
-    font-size: 50px;
+    font-size: 42px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .clean{
@@ -104,11 +109,15 @@ nav button:hover{
 .photo{
     width: 35%;
     height: 60vh;
-    background-color: aqua;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
 }
 .photo img{
-    width: 45rem;
-    height: 60vh;
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 550px;
+    height: 50vh;
 }
 .features{
     margin-top: 110px;
