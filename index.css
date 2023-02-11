@@ -57,7 +57,7 @@ nav button:hover{
 }
 .texts{
     margin-top: 100px;
-    width: 35%;
+    width: 750px;
     height: 40vh;
     /* background-color: aqua; */
 }
@@ -107,8 +107,8 @@ nav button:hover{
     color: rgba(5, 5, 5, 0.911);
 }
 .photo{
-    width: 35%;
-    height: 60vh;
+    /* width: 35%;
+    height: 60vh; */
     /* background-color: aqua; */
     justify-content: center;
     align-items: center;
@@ -116,7 +116,7 @@ nav button:hover{
 .photo img{
     margin-top: 50px;
     margin-left: 60px;
-    width: 470px;
+    width: 65%;
     height: 50vh;
 }
 .features{
