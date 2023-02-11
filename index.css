@@ -53,12 +53,13 @@ nav button:hover{
     background-color: beige;
     justify-content: center;
     height: 60vh;
+    gap: 15px;
 }
 .texts{
     margin-top: 100px;
     width: 500px;
     height: 40vh;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .simple{
     color: rgb(12, 11, 11);
