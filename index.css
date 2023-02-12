@@ -255,7 +255,7 @@ nav button:hover{
     box-shadow: 1px 2px 6px 5px rgb(205, 202, 202);
 }
 .chrome_app img{
-    margin-top: 20px;
+    margin-top: 3px;
     width: 120px;
 }
 .chrome_app .headling{
@@ -271,7 +271,6 @@ nav button:hover{
     font-family: Arial, Helvetica, sans-serif;
 }
 .chrome_app .drop{
-    margin-top: 5px;
     color: rgb(203, 25, 25);
     color: rgb(179, 173, 173);
 }
