@@ -144,13 +144,13 @@ nav button:hover{
     width: 8%;
     height: 6px;
     position: absolute;
-    margin-left: 665px;
+    margin-left: 600px;
     margin-top: 15px;
 }
 .buttons hr{
     margin-top: 20px;
     /* background-color: cadetblue; */
-    width: 30%;
+    width: 34%;
     display: inline-block;
 }
 
