@@ -225,14 +225,14 @@ nav button:hover{
     align-content: center;
 }
 .download h2{
-    font-size: 35px;
+    font-size: 25px;
 }
 .download p{
-    font-size: 22px;
+    font-size: 18spx;
     color: rgb(112, 110, 110);
 }
 .download_link{
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
     width: 100%;
     /* background-color: blue; */
@@ -248,8 +248,8 @@ nav button:hover{
 .download_link .chrome_app{
     border-radius: 15px;
     background-color: white;
-    width: 300px;
-    height: 45vh;
+    width: 260px;
+    height: 48vh;
     border-top: none;
     border-color: rgb(246, 241, 241);
     box-shadow: 1px 2px 6px 5px rgb(205, 202, 202);
