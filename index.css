@@ -248,8 +248,8 @@ nav button:hover{
 .download_link .chrome_app{
     border-radius: 15px;
     background-color: white;
-    width: 260px;
-    height: 48vh;
+    width: 240px;
+    height: 50vh;
     border-top: none;
     border-color: rgb(246, 241, 241);
     box-shadow: 1px 2px 6px 5px rgb(205, 202, 202);
@@ -276,7 +276,7 @@ nav button:hover{
     color: rgb(179, 173, 173);
 }
 .chrome_app button{
-    margin-top: 15px;
+    /* margin-top: 5px; */
     width: 200px;
     height: 50px;
     border-radius: 5px;
