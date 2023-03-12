@@ -1233,7 +1233,7 @@ footer .tail{
         display: block;
     }
     ul{
-        background-color: white;
+        background-color: blue;
         position: fixed;
         width: 50%;
         height: 50vh;
@@ -1382,10 +1382,9 @@ footer .tail{
         width: 100%;
     }
     ul{
+        background-color: blue;
         position: fixed;
         width: 50%;
-        height: 50vh;
-        background-color: white;
         top: 80px;
         left: 100%;
         text-align: center;
