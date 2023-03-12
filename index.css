@@ -293,9 +293,8 @@ img{
 
 .download{
     margin-top: 30px;
-    width: 100%;
+    width: 20vh;
     height: 100vh;
-    /* background-color: aquamarine; */
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
@@ -448,7 +447,7 @@ img{
     background-color: rgba(60, 60, 220, 0.927);
 }
 .questions_ask{
-    margin-top: 100px;
+    margin-top: 10px;
     width: 100%;
     text-align: center;
     align-items: center;
@@ -679,7 +678,6 @@ img{
     padding: 50px;
     display: flex;
     width: 100%;
-    /* background-color: beige; */
     justify-content: center;
     height: 60vh;
     gap: 80px;
@@ -688,7 +686,6 @@ img{
     margin-top: 100px;
     width: 500px;
     height: 40vh;
-    /* background-color: aqua; */
 }
 .simple{
     color: rgb(12, 11, 11);
@@ -706,7 +703,6 @@ img{
     margin-top: 23px;
 }
 .apps_link .chrome{
-    /* border: none; */
     width: 10rem;
     height: 3rem;
     background-color: rgba(0, 0, 255, 0.911);
@@ -738,7 +734,6 @@ img{
 .photo{
     width: 32%;
     height: 60vh;
-    /* background-color: aqua; */
 }
 .photo img{
     margin-top: 50px;
@@ -748,7 +743,6 @@ img{
 .features{
     margin-top: 70px;
     width: 100%;
-    /* background-color: aqua; */
     text-align: center;
     height: 25vh;
     justify-content: center;
@@ -779,7 +773,6 @@ img{
 }
 .buttons hr{
     margin-top: 20px;
-    /* background-color: cadetblue; */
     width: 35%;
     display: inline-block;
 }
@@ -792,7 +785,6 @@ img{
     background-color: rgba(255, 255, 255, 0);
     font-size: 13px;
     font-weight: bold;
-    /* border: none; */
 }
 .buttons button:hover{
     color: rgba(235, 39, 39, 0.883);
@@ -801,7 +793,6 @@ img{
 .group{
     width: 100%;
     height: 50vh;
-    /* background-color: chocolate; */
     display: flex;
     align-items: center;
     text-align: center;
@@ -810,7 +801,6 @@ img{
     font-family: Arial, Helvetica, sans-serif;
 }
 .group .photo_section{
-    /* background-color: chartreuse; */
     width: 30%;
     height: 45vh;
 }
@@ -819,7 +809,6 @@ img{
     height: 45vh;
 }
 .group .texts_section{
-    /* background-color: crimson; */
     width: 580px;
     height: 35vh;
     text-align: left;
@@ -848,7 +837,6 @@ img{
     margin-top: 30px;
     width: 100%;
     height: 100vh;
-    /* background-color: aquamarine; */
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
@@ -868,7 +856,6 @@ img{
     margin-top: 70px;
     display: flex;
     width: 100%;
-    /* background-color: blue; */
     text-align: center;
     justify-content: center;
     gap: 2%;
@@ -1005,7 +992,6 @@ img{
     width: 100%;
     text-align: center;
     align-items: center;
-    /* background-color: aqua; */
 }
 .questions_ask h2{
     font-size: 35px;
@@ -1018,17 +1004,10 @@ img{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* .questions_ask form{
-    margin-left: 35%;
-    margin-top: 30px;
-    background-color: rgb(226, 205, 246);
-    height: 25vh;
-} */
 form {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 30px 0 30%;
-    /* background-color: blue; */
     width: 40%;
 }
 .Question{
@@ -1051,34 +1030,6 @@ form {
 .drop_content{
     display: none;
 }
-/* form div .drop_content{
-    display: none;
-    position: absolute;
-    width: 100%;
-    overflow: auto;
-    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0, 4);
-}
-.drop_content p{
-    display: block;
-    color: #000000;
-    padding: 5px;
-}
-
-form div .second_question img{
-    margin-left: 230px;
-    width: 25px;
-    height: 15px;
-}
-form div .third_question img{
-    margin-left: 340px;
-    width: 25px;
-    height: 15px;
-}
-form div .fourth_question img{
-    margin-left: 200px;
-    width: 25px;
-    height: 15px;
-} */
 .more_information button{
     margin-top: 20px;
     width: 130px;
@@ -1158,7 +1109,6 @@ footer .tail{
     margin-top: 30px;
 }
 .tail ul{
-    /* float: left; */
     margin-right: 20px;
     margin: 10px 0;
 }
@@ -1187,9 +1137,7 @@ footer .tail{
 }
 /* Tablets view */
 @media (max-width: 810px) {
-    body{
-        background-color: red;
-    }
+
     img{
     width: 130px;
 }
@@ -1197,6 +1145,7 @@ footer .tail{
         font-size: 10px;
         padding-left: 50px;
     }
+    
     nav ul li a{
         font-size: 16px;
     }
@@ -1225,7 +1174,6 @@ footer .tail{
     }
     .group{
         margin: 0 5px 0 10px;
-        /* margin-left: 70px; */
         column-gap: 100px;
         height: 380px;
     }
@@ -1279,17 +1227,16 @@ footer .tail{
 /* # Tablet some mobile */
 @media only screen and (min-width:321px) and (max-width:768px) {
    body{
-    background-color: aquamarine;
     margin: 0 0 0 1px;
    }
     .checkbtn{
         display: block;
     }
     ul{
+        background-color: white;
         position: fixed;
         width: 50%;
         height: 50vh;
-        background-color: cyan;
         top: 80px;
         left: 100%;
         text-align: center;
@@ -1380,7 +1327,6 @@ footer .tail{
     }
     .questions_ask{
         width: 100%;
-        /* text-align: center; */
     }
     .questions_ask h2{
         font-size: 20px;
@@ -1424,7 +1370,6 @@ footer .tail{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background-color: greenyellow;
         align-items: center;
         align-self: center;
         align-content: center;
@@ -1440,7 +1385,7 @@ footer .tail{
         position: fixed;
         width: 50%;
         height: 50vh;
-        background-color: cyan;
+        background-color: white;
         top: 80px;
         left: 100%;
         text-align: center;
@@ -1514,7 +1459,6 @@ footer .tail{
    }
    .questions_ask{
         width: 100%;
-        /* text-align: center; */
     }
     .questions_ask h2{
         font-size: 20px;
