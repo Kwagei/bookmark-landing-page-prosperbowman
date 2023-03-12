@@ -1309,13 +1309,19 @@ footer .tail{
         font-size: 18px;
     }
     .download{
+        width: 100%;
         padding: 0;
         display: block;
         margin-top: 150px;
-        height: 180vh;
+        height: 210vh;
+    }
+    .download h2{
+        font-size: 18px;
+        width: 100%;
     }
     .download p{
         font-size: 21px;
+        width: 100%;
     }
     .download_link{
         margin: 0;
