@@ -7,22 +7,26 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Bookmark landing page</title>
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
 </head>
+
 <body>
 
-  <nav>
-    <div class="bookmark">
-      <img src="./images/logo-bookmark.svg">
-    </div>
-
-      <div class="navigation">
-        <div>FEATURES</div>
-        <div>PRICING</div>
-        <div>CONTACT</div>
-        <button>LOGIN</button>
-      </div>
-     
-  </nav>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i>
+            <!-- <i class="fas fa-bars"> -->
+        </label>
+        <label class="logo"><img src="./images/logo-bookmark.svg"></label>
+        <ul>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">PRICING</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#" class="logic">LOGIC</a></li>
+        </ul>
+    </nav>
 
   <section class="section">
     <div class="texts">
@@ -75,6 +79,7 @@
     <p>We've got more browers in the pipeline. Please do let us know if<br>
     you've got a favourite you'd like us to prioritize.</p>
     <div class="download_link">
+
       <div class="chrome_app">
         <img src="./images/logo-chrome.svg">
         <div class="headling">Add to Chrome</div>
@@ -87,7 +92,7 @@
         <img src="./images/logo-firefox.svg">
         <div class="headling">Add to Chrome</div>
         <div class="paragraph">Minimum Version 55</div>
-        <div class="drop">-    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -</div>
+        <div class="drop">-    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -</div>
         <button>Add & Install Extension</button>
       </div>
       
@@ -95,41 +100,108 @@
         <img src="./images/logo-opera.svg">
         <div class="headling">Add to Chrome</div>
         <div class="paragraph">Minimum Version 55</div>
-        <div class="drop">-    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -    -</div>
+        <div class="drop">-    -    -    -    -    -    -    -    -    -   -  -    -    -    -    -    -    -    -    -    -</div>
         <button>Add & Install Extension</button>
       </div>
       
     </div>
   </div>
-
+  
     <div class="questions_ask">
       <h2>Frequently Asked Questions</h2>
       <p>Here are some of ourFAQs. If you have any other questions<br>
         you'd like answered please feel free to email us.</p>
+    </div>
       <form>
-        <div>
+      <div class="Question">
+
+        <div class="question_one">
           <hr>
-          <span class="first_question">What is a bookmark<img src="./images/icon-arrow.svg"></span>
-          <div class="drop_content">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium quisquam placeat necessitatibus voluptatibus praesentium<br>
-            autem, sequi eius sapiente at? Aperiam reprehenderit quod est eaque doloribus, explicabo praesentium aliquid veniam similique!</p>
+          <div class="just_question" id="just_question">
+            <h3>What is a bookmark</h3>
+            <i onclick="show_hide1()" class="fa fa-caret-down" style="font-size:35px"></i>
+            
+          </div>
+          <div class="drop_content1" id="drop_content1" style="display: none;">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+            justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.  </p>
+          </div>
+        </div>
+
+        <div class="question_one">
+          <hr>
+          <div class="just_question">
+            <h3>How can I request a new browser?</h3>
+            <i onclick="show_hide2()" class="fa fa-caret-down" style="font-size:35px"></i>
+          </div>
+          <div class="drop_content2" id="drop_content2" style="display: none;">
+          <p>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+            Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+            ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+            Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+          </div>
+        </div>
+
+        <div class="question_one">
+          <hr>
+          <div class="just_question">
+            <h3>Is there a mobile app?</h3>
+            <i onclick="show_hide3()" class="fa fa-caret-down" style="font-size:35px"></i>
+          </div>
+          <div id="drop_content3" class="drop_content3" style="display: none;">
+          <p>Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+            urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+            sollicitudin ex et ultricies bibendum.</p>
+          </div>
+        </div>
+
+        <div class="question_one">
+          <hr>
+          <div class="just_question">
+            <h3>What about other Chromium browsers?</h3>
+            <i onclick="show_hide4()" class="fa fa-caret-down" style="font-size:35px"></i>
+          </div>
+          <div id="drop_content4" class="drop_content4" style="display: none;">
+          <p>Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+            vitae neque eget nisl gravida pellentesque non ut velit.</p>
           </div>
           <hr>
-          <span class="second_question">How can i request a new browser?<img src="./images/icon-arrow.svg"></span>
-          <hr>
-          <span class="third_question">Is there a mobile app?<img src="./images/icon-arrow.svg"></span>
-          <hr>
-          <span class="fourth_question">What about other Chromium browser?<img src="./images/icon-arrow.svg"></span>
-          <hr>
         </div>
-      </form>
-    </div> 
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+        <div class="more_information">
+        <button>More Info</button>
+        </div>
+
+      </div>
+      </form>
+
+      
+  
+   <footer>
+      
+    <div class="head">
+      <h2>35,000 + ALREADY JOINED</h2>
+      <h1>Stay up-to-date with what <br>
+      we're doing</h1>
+      <input type="" placeholder="example@email/com"> <button>Contact Us</button>
+    </div>
+
+      <div class="tail">
+         <label class="logo"><img src="./images/logo-bookmark.svg"></label>
+        <ul>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">PRICING</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">LOGIC</a></li>
+        </ul>
+        <div class="link">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+        </div>
+      </div>
+
+      <script src="index.js"></script>
+
   </footer>
-</body>
+gi</body>
 </html>
