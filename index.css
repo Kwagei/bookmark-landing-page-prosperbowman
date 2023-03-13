@@ -11,13 +11,10 @@ body{
     background-image: url(/background1.jpg);
 }
 nav{
-    background-color: blue;
     height: 80px;
     width: 100%;
-    position: fixed;
 }
 label.logo{
-    color: white;
     font-size: 35px;
     font-weight: bold;
     line-height: 80px;
@@ -33,12 +30,11 @@ nav ul li{
     margin: 0 5px;
 }
 nav ul li a{
-    color: white;
-    font-weight: bold;
+    color: black;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
-    font-family: Time New Roman;
+    font-family: Arial, sans-serif;
     text-transform: uppercase;
     animation: bouncein 2s .5s infinite;
 }
@@ -618,10 +614,12 @@ body{
     font-family: monospace;
 }
 nav{
-    background-color: blue;
+    font-weight: bold;
+    /* background-color: blue; */
     height: 80px;
     width: 100%;
-    position: fixed;
+    position: static;
+    font-size: 10px;
 }
 label.logo{
     color: white;
@@ -640,12 +638,11 @@ nav ul li{
     margin: 0 5px;
 }
 nav ul li a{
-    color: white;
-    font-weight: bold;
+    color: black;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
-    font-family: Time New Roman;
+    font-family: Arial, sans-serif;
     text-transform: uppercase;
 }
 nav ul li .logic:hover{
@@ -836,13 +833,14 @@ img{
 .download{
     margin-top: 30px;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     justify-items: center;
     align-items: center;
     align-content: center;
+    /* background-color: blue; */
 }
 .download h2{
     font-size: 25px;
@@ -988,7 +986,6 @@ img{
     background-color: rgba(60, 60, 220, 0.927);
 }
 .questions_ask{
-    margin-top: 100px;
     width: 100%;
     text-align: center;
     align-items: center;
@@ -1233,8 +1230,8 @@ footer .tail{
         display: block;
     }
     ul{
-        background-color: blue;
-        position: fixed;
+        /* background-color: blue; */
+        /* position: fixed; */
         width: 50%;
         height: 50vh;
         top: 80px;
@@ -1388,7 +1385,7 @@ footer .tail{
         width: 100%;
     }
     ul{
-        background-color: blue;
+        /* background-color: blue; */
         position: fixed;
         width: 50%;
         top: 80px;
